@@ -2,7 +2,6 @@ package edu.sdsu.cs160l.calculator;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.platform.suite.api.Suite;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -14,7 +13,6 @@ import static org.mockito.Mockito.when;
 
 //TODO add Extension for Mockito and Test Suite
 @ExtendWith(MockitoExtension.class)
-@Suite()
 class MathOperationsTest {
 
     //TODO add annotation for injecting mocks
